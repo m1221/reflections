@@ -12,17 +12,30 @@ LESSON 2 REFLECTIONS
 		directory is the most current state of the directory. The git repository consists
 		of committed versions of the main directory.
 		-The staging area helps the user organize their thoughts regarding commits.
+			-if a user fixes multiple issues at once, without having made commits in
+			between them, then the user can use the staging area to make 1 commit
+			at a time.
 
 	How can you use the staging area to make sure you have one commit per logical
 	change?
+		With a staging area, the user can decide which changes to commit.
 
 	What are some situations when branches would be helpful in keeping your history
 	organized? How would branches help?
+		-If you want to test experimental features.
+		-If you want to try to solve a problem using different methods.
+		-If you want different versions of a software for different users.
+		-Branches provide the structure for organizing the changes.
 
 	How do the diagrams help you visualize the branch structure?
+		-lol. they do.
 
 	What is the result of merging two branches together? Why do we represent it in
 	the diagram the way we do?
+		-The result of a merge of two branches is the combining of code into a new node.
+		-The code of the "checkouted" branch is supplemented by code from the other branch.
 
 	What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 	manually?
+		-Git's automatic merging can save time when performing conflict resolution.
+		-Manual merging ultimately gives you more control but is more time consuming.
